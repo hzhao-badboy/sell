@@ -1,6 +1,6 @@
 # sell
 
-> A Vue.js project
+> My first Vue project
 
 ## Build Setup
 
