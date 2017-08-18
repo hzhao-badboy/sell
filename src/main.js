@@ -4,17 +4,19 @@ import Vue from 'vue';
 import App from './App';
 import VueRouter from 'vue-router';
 import goods from './components/goods/goods';
+import ratings from './components/ratings/ratings';
+import sellers from './components/sellers/sellers';
 
 Vue.use(VueRouter);
 
 Vue.config.productionTip = false;
 
-var routs = [
-  {path: '/goods', component: goods}
-];
-
 var router = new VueRouter({
-  routs
+  routes: [
+    {path: '/goods', component: goods},
+    {path: '/ratings', component: ratings},
+    {path: '/sellers', component: sellers}
+  ]
 });
 
 /* eslint-disable no-new */

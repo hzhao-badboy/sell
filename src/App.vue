@@ -32,4 +32,12 @@
     .tab-item
       flex:1
       text-align: center
+      width: 100%
+      height: 100%
+      & > a
+        display: block
+        font-size: 14px
+        color: rgb(77, 85, 93)
+        &.router-link-active
+          color: rgb(240, 20, 20)
 </style>
